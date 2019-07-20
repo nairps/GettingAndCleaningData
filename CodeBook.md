@@ -31,7 +31,7 @@
     `tidy_datset.txt`](#reproducing-the-tidy_datset.txt)
 -   [6. References](#references)
 
-1. Abstract
+## 1. Abstract
 -----------
 
 Below presented is a codebook for the tidy dataset, `tidy_data.txt`
@@ -48,7 +48,7 @@ the original data, the structure of the new dataset and variables in the
 `tidy_data.txt` and details on how to reproduce the tidy dataset
 creation.
 
-2. Materials
+## 2. Materials
 ------------
 
 ### Activity recognition experiment
@@ -366,6 +366,7 @@ Subjects who participated (range 1-30)
 </tr>
 </tbody>
 </table>
+
 ### The variables in the activity dataset
 
 The signals collected from the experiment are listed below, where the
@@ -412,7 +413,7 @@ activity recognition dataset).
       - bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
       - angle(): Angle between to vectors.
 
-3. Methods
+## 3. Methods
 ----------
 
 Listed below are the transformations that have been applied to the test
@@ -508,7 +509,7 @@ following steps.
     measurements for each activity and each subject was then written to
     a local file.
 
-4. Results
+## 4. Results
 ----------
 
 ### Structure of the tidy dataset
@@ -2023,7 +2024,8 @@ velocity jerk signals for each activity and each subject
 </tr>
 </tbody>
 </table>
-5. Reproducing the `tidy_datset.txt`
+
+## 5. Reproducing the `tidy_datset.txt`
 ------------------------------------
 
 The tidy data was generated using the R script `run_analysis.R` which
@@ -2055,7 +2057,7 @@ reproducing the analysis**
     [43] rsconnect_0.8.13  data.table_1.12.2 xml2_1.2.0        lubridate_1.7.4   assertthat_0.2.1  rmarkdown_1.14    httr_1.4.0       
     [50] rstudioapi_0.10   R6_2.4.0          nlme_3.1-140      compiler_3.6.1   
 
-6. References
+## 6. References
 -------------
 
 \[1\] D. Anguita, A. Ghio, L. Oneto, X. Parra, and J. L. Reyes-Ortiz,
